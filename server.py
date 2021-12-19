@@ -7,9 +7,7 @@ import json
 
 
 
-# Paste your SDK key inside the `.env` file. Don't paste it
-# here or you'll expose your SDK key to anyone who opens
-# this app. Instead, use the environment variable to
+# Paste your SDK key below
 ldclient.set_config(Config("sdk-4f0ff5b2-9c06-463f-9ac7-ab24588b1a84"))
 client = ldclient.get()
 
