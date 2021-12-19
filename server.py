@@ -32,7 +32,7 @@ def pricing():
       "country": data['country'],
       "firstName": data['firstName']
     }
-    is_tier_3_enabled = client.variation('firstflag', user, False)
+    is_tier_3_enabled = client.variation('firstflag', user, False) #update feature flag name here
     print("Flag: " + str(is_tier_3_enabled))
     return render_template('pricing.html', is_tier_3_enabled=is_tier_3_enabled)
 
