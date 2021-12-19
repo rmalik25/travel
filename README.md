@@ -5,7 +5,7 @@ Requirements before getting started"
 
 
 Application Setup and Installation:
-1. Clone repository: _git clone repo https://github.com/rmalik25/travel.git_
+1. Clone repository: _git clone https://github.com/rmalik25/travel.git_
 2. Edit server.py, and update SDK key value in line 11: _ldclient.set_config(Config(**SDK Key value**))_
 3. Update the name of the feature flag in Line 35: _is_tier_3_enabled = client.variation(**flag-name**, user, False)_
 4. Run Python and Launch server: _pip3 install -r requirements && python3 server.py_
