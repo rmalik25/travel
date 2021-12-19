@@ -6,8 +6,8 @@ Requirements before getting started"
 
 Application Setup and Installation:
 1. Clone repository: git clone repo https://github.com/rmalik25/travel.git
-2. Edit server.py, and update SDK key value in line 11: ldclient.set_config(Config("_**<value>**_")
-3. Update the name of the feature flag in Line 35: is_tier_3_enabled = client.variation('_**<flag value>**_', user, False)
+2. Edit server.py, and update SDK key value in line 11: ldclient.set_config(Config("_<value>_")
+3. Update the name of the feature flag in Line 35: is_tier_3_enabled = client.variation("_<value>_", user, False)
 4. Run Python and Launch server: pip3 install -r requirements && python3 server.py
 5. Open up browser and browse to http://127.0.0.1:5000/
 6. Update user.json with new values e.g. change country to "Australia" and refresh browser to see changes.
